@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Typing Game </title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="myscript.js"></script>
+ </head>
+ <body>
+  <header>
+    <span id="level">Difficulty</span>
+    <input type="text" id="level-hard" disabled value="Hard" style="color:white">
+    <span id="typing-speed" title="speed">speed: per character</span>
+  </header>
+  <section id="content">
+   <section id="grid">
+   <header id="grid-header">
+   	<img src="person.svg" alt="person">
+   	<img src="display.svg" alt="display">
+   	<span>Speed Typer</span>
+   	<img src="person.svg" alt="person">
+    <img src="display.svg" alt="display">
+   </header>
+   <span id="timer"> Time left: 1s </span>
+   <span id="score"> Score: 0</span>
+   <span id="info-box">Type the following </span>
+   <span id="guess-text">warlike</span>
+   <input type="text" id="input-guess" placeholder="Type the word here">
+   </section>
+  </section>
+  <img src="gear.svg" id="setting">
+
+
+ </body>
+</html>
